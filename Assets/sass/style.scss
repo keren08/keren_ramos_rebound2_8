@@ -1,0 +1,92 @@
+body{
+    width: 100%;
+    background-image: url('../img/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gato{
+    width: 25%;
+    margin-top:79vh;
+    animation: desplazargato 4s linear infinite ;
+}
+
+.perro{
+    margin-top:79vh;
+    width: 25%;
+    animation: desplazarperro 4s linear infinite;
+}
+
+@keyframes desplazargato{
+    0%{
+        transform: translate(200px);
+    }
+    10%{
+        transform: translate(-300px);
+    }
+
+    20%{
+        transform: translate(-440px);
+    }
+
+    30%{
+       transform: translate(-450px,-120px);
+    }
+    60%{
+        transform: translate(-650px,-120px);
+    }
+    70%{
+        transform: translate(-680px,0px);
+    }
+
+    80%{
+        transform: translate(-950px,0px);
+    }
+
+    90%{
+        transform: translate(-1000px,-200px);
+    }
+
+    100%{
+        transform: translate(-1200px,-200px);
+    }
+}
+
+
+@keyframes desplazarperro{
+    0%{
+        transform: translate(200px);
+    }
+    30%{
+        transform: translate(-300px);
+    }
+
+    50%{
+        transform: translate(-540px);
+    }
+
+    70%{
+       transform: translate(-570px,-120px);
+    }
+    75%{
+        transform: translate(-700px,-120px);
+    }
+    80%{
+        transform: translate(-800px,0px);
+    }
+
+    90%{
+        transform: translate(-970px,0px);
+    }
+
+    95%{
+        transform: translate(-1000px,-200px);
+    }
+
+    100%{
+        transform: translate(-1200px,-200px);
+    }
+}
+
