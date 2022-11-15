@@ -21,60 +21,60 @@ body {
 
 @keyframes desplazargato {
   0% {
-    transform: translate(200px);
+    transform: translate(20rem);
   }
   10% {
-    transform: translate(-300px);
+    transform: translate(-30rem);
   }
   20% {
-    transform: translate(-440px);
+    transform: translate(-33rem);
   }
   30% {
-    transform: translate(-450px, -120px);
+    transform: translate(-33rem, -11rem);
   }
   60% {
-    transform: translate(-650px, -120px);
+    transform: translate(-40rem, -11rem);
   }
   70% {
-    transform: translate(-680px, 0px);
+    transform: translate(-45rem, 0px);
   }
   80% {
-    transform: translate(-950px, 0px);
+    transform: translate(-65rem, 0px);
   }
   90% {
-    transform: translate(-1000px, -200px);
+    transform: translate(-65rem, -14rem);
   }
   100% {
-    transform: translate(-1200px, -200px);
+    transform: translate(-100rem, -14rem);
   }
 }
 @keyframes desplazarperro {
   0% {
-    transform: translate(200px);
+    transform: translate(20rem);
   }
   30% {
-    transform: translate(-300px);
+    transform: translate(-30rem);
   }
   50% {
-    transform: translate(-540px);
+    transform: translate(-36rem);
   }
   70% {
-    transform: translate(-570px, -120px);
+    transform: translate(-37rem, -11rem);
   }
   75% {
-    transform: translate(-700px, -120px);
+    transform: translate(-49rem, -11rem);
   }
   80% {
-    transform: translate(-800px, 0px);
+    transform: translate(-50rem, 0px);
   }
   90% {
-    transform: translate(-970px, 0px);
+    transform: translate(-75rem, 0px);
   }
   95% {
-    transform: translate(-1000px, -200px);
+    transform: translate(-75rem, -14rem);
   }
   100% {
-    transform: translate(-1200px, -200px);
+    transform: translate(-100rem, -14rem);
   }
 }
 
