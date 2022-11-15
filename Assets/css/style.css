@@ -13,6 +13,10 @@ body {
   animation: desplazargato 4s linear infinite;
 }
 
+.gato:hover {
+  animation: cambiar 4s linear none;
+}
+
 .perro {
   margin-top: 79vh;
   width: 25%;
@@ -31,6 +35,7 @@ body {
   }
   30% {
     transform: translate(-33rem, -11rem);
+    width: 10%;
   }
   60% {
     transform: translate(-40rem, -11rem);
